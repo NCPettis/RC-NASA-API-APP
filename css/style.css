@@ -16,12 +16,12 @@
 body{
   display: flex;
   justify-content: center;
-  font-family: "TASA", Arial, Helvetica, sans-serif;
-    background-image: url("img/moon-right-dere.jpg");
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
+  font-family: "TASA Orbiter", Arial, Helvetica, sans-serif;
+  background-image: url("../img/moon-right-dere.jpg");
+  /* overflow: hidden; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: left; */
     /* background: linear-gradient(to bottom,  #333 , black); */
    
 }
@@ -29,11 +29,31 @@ body{
 h1{
   text-align: center;
   color: #F41A1A;
+  text-shadow: 0 0 10px rgb(243, 243, 252)
 }
 header{
   /* border: 5px solid green; */
   display: flex;
   justify-content: center;
+}
+label{
+  color: white;
+}
+h2{
+  color: white
+}
+h3{
+  color: white;
+}
+
+button{
+  color: white;
+  border-radius: 5px;
+  border: 2px solid rgb(109, 160, 226);
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px;
+  background-color: rgb(29, 31, 145);
 }
 
 video{
@@ -51,8 +71,8 @@ video{
 }
 #logo{
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 7em;
+  height: 5em;
 }
 
 #media{
@@ -64,8 +84,14 @@ video{
 #webApp{
 
   border: 5px solid red;
+  border-radius: 2em;
   width: 50%;
-  background-image: url("img/moon-right-dere.jpg");
+  background-color:  rgba(9, 21, 128, 0.7);
+  padding: 3em;
+}
+
+a{
+  color: rgb(66, 0, 0);
 }
 
 /******************************************
